@@ -29,16 +29,12 @@
         <div class="container">
 
             <div class="starter-template">
-                <h1>WebQ</h1>
-                <p class="lead">
 
                 LoadGen is an HTTP load generator
 
-                </p>
                 <p>
                 <ul>
-                    <li> <a href="https://www.cse.iitb.ac.in/~mythili/research/webq-iwqos.pdf">Paper</a> </li>
-                    <li> <a href="https://github.com/networkedsystemsIITB/WebQ">Code in Github</a> </li>
+                    <li> <a href="https://github.com/networkedsystemsIITB/LoadGenerator">Code in Github</a> </li>
                 </ul>
                 </p>
 
