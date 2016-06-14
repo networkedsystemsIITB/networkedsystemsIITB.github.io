@@ -30,21 +30,29 @@
 
             <div class="starter-template">
                 <h1>WebQ</h1>
+                <h3> A Virtual Queue For Improving User Experience During Web Server Overload </h3>
                 <p class="lead">
-
                 WebQ, a system consisting of two web proxies, that together
                 simulate a virtual queue of web requests, and shape incoming load
                 to match server capacity. Users accessing a server protected by
                 WebQ receive a HTTP redirect response specifying a wait time in the
                 virtual queue, and are automatically redirected to the web server
                 upon expiration of the wait time.
-
                 </p>
+                <div>
+                    <h3> Architecture Diagram </h3>
+                    <img src="img/arch.png" height=500/>
+                </div>
                 <p>
-                <ul>
-                    <li> <a href="https://www.cse.iitb.ac.in/~mythili/research/webq-iwqos.pdf">Paper</a> </li>
-                    <li> <a href="https://github.com/networkedsystemsIITB/WebQ">Code in Github</a> </li>
-                </ul>
+                    <h3> Links </h3>
+                    <ul>
+                        <li style="margin-bottom: 10px;">
+                            <em>WebQ: A Virtual Queue To Improve User Experience During Web Server Overload</em> <a href="https://www.cse.iitb.ac.in/~mythili/research/webq-iwqos.pdf">[pdf]</a><br>
+                            Bhavin Doshi, Chandan Kumar, Pulkit Piyush, Mythili Vutukuru<br>
+                            IEEE/ACM International Symposium on Quality of Service (IWQoS), Portland, OR, June 2015.<br>
+                        </li>
+                        <li> <a href="https://github.com/networkedsystemsIITB/WebQ">Code in Github</a> </li>
+                    </ul>
                 </p>
 
             </div>
